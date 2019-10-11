@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Contactos</string>
+    <string name="ValidarNombre">Escriba el nombre</string>
+    <string name="ValidarOrganizacion">Escriba la organizacion</string>
+    <string name="ValidarTelefono">Escriba telefono</string>
+    <string name="Tamanio">Tamaño 8 caracteres</string>
+    <string name="txtNombre">Nombre</string>
+    <string name="txtTelefono">Telefono</string>
+    <string name="txtOrg">Organizacion</string>
+    <string name="btnGuardar">GUARDAR</string>
+    <string name="btnDatos">Mis Datos</string>
+    <string name="nombre">Nombre: \n Sandra Yamileth Sandoval Molina</string>
+    <string name="codigo">Codigo: \n SM16-I04-001</string>
+</resources>

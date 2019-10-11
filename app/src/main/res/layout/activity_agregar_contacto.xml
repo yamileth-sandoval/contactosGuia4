@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".agregarContacto">
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/edtNombre"
+        android:inputType="textPersonName"
+        android:hint="@string/txtNombre"
+        app:met_floatingLabel="highlight"
+        android:layout_height="wrap_content" />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/edtTel"
+        android:inputType="phone"
+        android:hint="@string/txtTelefono"
+        app:met_floatingLabel="highlight"
+        android:layout_height="wrap_content" />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/edtOrg"
+        android:inputType="textPersonName"
+        android:hint="@string/txtOrg"
+        app:met_floatingLabel="highlight"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_redondo"
+        android:text="@string/btnGuardar"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/btnMisDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_orilla"
+        android:onClick="clickMisDatos"
+        android:text="@string/btnDatos"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+</LinearLayout>
